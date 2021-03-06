@@ -82,7 +82,7 @@ class Game {
 
        if(player.distance === 4100){
         gameState=2;
-        player.rank++;
+       // player.rank++;
         Player.updateCarsAtEnd(player.rank);
 
        }
